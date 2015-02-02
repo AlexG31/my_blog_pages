@@ -74,11 +74,11 @@ ul.user li{
 ul.user li span{
 	width:22px;
 	height:22px;
-	background:url(../images/user-icons.png)no-repeat 0px 0px;
+	background:url(http://alexg31.github.io/my_blog_pages/model_image/user-icons.png)no-repeat 0px 0px;
 	display: inline-block;
 }
 ul.user li span.bascket{
-	background:url(../images/user-icons.png)no-repeat -20px 0px;
+	background:url(http://alexg31.github.io/my_blog_pages/model_image/user-icons.png)no-repeat -20px 0px;
 	margin-right: 3px;
 }
 ul.user li a{
@@ -96,7 +96,7 @@ ul.user li button{
 	padding:15px;
 	border:1px solid #222222;
 	cursor: pointer;
-	background:url(../images/search.png)no-repeat 7px 7px;
+	background:url(http://alexg31.github.io/my_blog_pages/model_image/search.png)no-repeat 7px 7px;
 	outline: none;
 }
 .content{
@@ -133,7 +133,7 @@ button.search:hover div.serch{
 .serch span input[type="submit"]{
 	display: inline-block;
 	padding:5px 15px; 
-	background: url(../images/search.png)no-repeat 7px 10px;
+	background: url(http://alexg31.github.io/my_blog_pages/model_image/search.png)no-repeat 7px 10px;
 	outline: none;
 	border:1px solid;
 	vertical-align: bottom;
@@ -240,7 +240,7 @@ span.line{
 i.twit-icon{
 	width:32px;
 	height:32px;
-	background:url(../images/twit-icon.png)no-repeat;
+	background:url(http://alexg31.github.io/my_blog_pages/model_image/twit-icon.png)no-repeat;
 	display: inline-block;
 }
 .t-wit{
@@ -269,7 +269,7 @@ i.twit-icon{
 i.aarow{
 	width:32px;
 	height:32px;
-	background:url(../images/aarow.png)no-repeat;
+	background:url(http://alexg31.github.io/my_blog_pages/model_image/aarow.png)no-repeat;
 	display:inline-block;
 }
 .t-hat p{
@@ -432,11 +432,11 @@ i.aarow{
 }
 .nbs-flexisel-nav-left {
 	left: 0px;
-	background: url(../images/slide-arw.png) no-repeat 0px 0px;
+	background: url(http://alexg31.github.io/my_blog_pages/model_image/slide-arw.png) no-repeat 0px 0px;
 }
 .nbs-flexisel-nav-right {
 	right: 0px;
-	background: url(../images/slide-arw.png) no-repeat -48px 0px;
+	background: url(http://alexg31.github.io/my_blog_pages/model_image/slide-arw.png) no-repeat -48px 0px;
 }
 /*-- Partner Part Ends Here --*/
 /*-- Footer Part Starts Here --*/
@@ -502,7 +502,7 @@ ul.social li{
 ul.social li i{
 	width:37px;
 	height:37px;
-	background:url(../images/social-icons.png)no-repeat;
+	background:url(http://alexg31.github.io/my_blog_pages/model_image/social-icons.png)no-repeat;
 	display: inline-block;
 	cursor:pointer;
 	transition:0.5s all;
@@ -580,7 +580,7 @@ h3.c-head{
 	font-family:Georgia;
 	color:#606060;
 	font-style: italic;
-	background:url(../images/show.png)no-repeat right;
+	background:url(http://alexg31.github.io/my_blog_pages/model_image/show.png)no-repeat right;
 	padding-right:10px;
 	cursor: pointer;
 	text-decoration: none;
@@ -1000,7 +1000,7 @@ ul.tab_list li a:hover {
 }
 .checkbox input + i:after {
 	content: '';
-	background: url("../images/tick1.png") no-repeat 1px 2px;
+	background: url("http://alexg31.github.io/my_blog_pages/model_image/tick1.png") no-repeat 1px 2px;
 	top: -1px;
 	left: -1px;
 	width: 15px;
@@ -1142,7 +1142,7 @@ ul.size-list li a:hover{
 	span.menu{
 		width:32px;
 		height:32px;
-		background:url(../images/nav.png)no-repeat;
+		background:url(http://alexg31.github.io/my_blog_pages/model_image/nav.png)no-repeat;
 		display:block;
 		float:right;
 		cursor: pointer;
