@@ -31,14 +31,16 @@ Released   : 20081009
 	<div class="navColumn"> 
     	<div class="overview">
 			Majoring image processing and recognition at Tsinghua university,China.(This is where you place either you company slogan, motto, or any keyword rich information.   This information will be the first 'content' that will be read by the search engines, so try to make it good ;-)   Also keep in mind that this will be true for every page, so it might be a good idea to change this area for each page.  You might say that this section is strategically placed for that purpose, so use it carefully.)      
-	  
+	
+<input type="text" name="firstname" id="input1"/>  
 <script>
 document.write("<h1>This is a heading</h1>");
 document.write("<h2>This is a paragraph.</h2>");
 function myFunction()
 {
+inputx=document.getElementById("input1");
 x=document.getElementById("para1");  // find element
-x.innerHTML="Hello JavaScript!";    // change content
+x.innerHTML=inputx.innerHTML;    // change content
 }
 </script>
 <button type="button" onclick="myFunction()">clickhere</button>
