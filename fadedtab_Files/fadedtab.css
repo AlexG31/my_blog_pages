@@ -256,3 +256,8 @@ html, body {
 text-align: center;
 }
 p {text-align: left;}
+
+#commentBox
+{
+width:800px;
+}
