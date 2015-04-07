@@ -101,7 +101,7 @@ x.innerHTML=x.innerHTML+inputx.value;    // change content
                 <p id="para1">2015-3-5</p>
                         <div class="comments"><a href="http://alexg31.github.io/my_blog_pages/html_template/Web.htm">Detail Link</a></div>
                         <br />
-            <div class="comments"><a href="#">Comments <a></div>
+            <div class="comments"><a href="#">Comments (34)</a></div>
      </div>
      <div class="contentBottom"></div>
    	<!--End Content Box -->
