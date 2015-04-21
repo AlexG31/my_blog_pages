@@ -34,6 +34,8 @@ int product(char a,int sa,char b,int sb,char &res,int &sr){
     return -1;
 
 }
+
+
 int divide_ijk(char a,int sa,char b,int sb,char &res,int &sr){
     // a/b
     char prd_char=0;
@@ -84,43 +86,44 @@ int divide_ijk(char a,int sa,char b,int sb,char &res,int &sr){
 }
 int main(){
 
-    //freopen("e:C-large.in","r",stdin);
-    //freopen("d:outputC_15.txt","w",stdout);
+    freopen("d:C-large-practice.in","r",stdin);
+    //freopen("d:C.out","w",stdout);
 
-    fstream finput("e:C-large.in",fstream::in);
+    //fstream finput("d:C-large-practice.in",fstream::in);
 
     int T;
-    finput>>T;
+    cin>>T;
 
     int casenum=0;
     while(casenum++<T){
 
         int L;
         long long X;
-        finput>>L>>X;
+        cin>>L>>X;
         //scanf("%d%lld",&L,&X);
 
 //
-//        if(X>15LL){
-//            X=15LL+(X-15LL)%4LL;
-//        }
+        if(X>12LL){
+            X=12LL+(X-12LL)%4LL;
+        }
 
-        cout<<"X="<<X<<endl;
+        //cout<<"X="<<X<<endl;
 
         string Lstr("");
         string str_temp;
-        finput>>str_temp;
+        cin>>str_temp;
 
-        printf("case %d  str.size()=%d\n",casenum,str_temp.size());
+        //printf("case %d  str.size()=%d\n",casenum,str_temp.size());
 
         //cout<<"str_temp="<<str_temp<<endl;
 
-        //for(int i=0;i<(int)X;i++){Lstr+=str_temp;}
-        //L*=(int)X;
-        cout<<"L="<<L<<endl;
-        //cout<<Lstr.size()/L<<endl;
+        for(int i=0;i<(int)X;i++){Lstr+=str_temp;}
 
-        continue;
+        L*=(int)X;
+        //cout<<"L="<<L<<endl;
+        //cout<<Lstr.size()<<endl;
+
+        //continue;
         if(L!=Lstr.size())return -1;
 
         string head,tail;
@@ -185,6 +188,6 @@ int main(){
         printf("Case #%d: %s\n",casenum,ok?"YES":"NO");
     }
 
-finput.close();
+
 
 return 0;}
