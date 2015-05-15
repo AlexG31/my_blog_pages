@@ -1,0 +1,5 @@
+<html>
+<title>How I installed scikit-image in win8(2015.5.15)</title>
+<body>using pip to install(in order):</br>
+1.nose</br>2.lapack(not nessassary)</br>3.ATLAS</br>4.numpy</br>5.scipy</br>
+</html>
